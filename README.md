@@ -40,6 +40,13 @@ The LEGO Technic 42006 Excavator is a complex mechanical model with a rotating c
 
 Completed for Graphic Desing in Aerospace Engineering at University Carlos III of Madrid.
 
+## Extensions
+
+(`.3D`, `.3MF`, `.FBX`, `.IFC`, `.IGES`,`.JT`, `.OBJ`, `.PAR`, `.PDF`, `.SAT`, `.SEV`, `.STEP`, `.STL`, `.U3D`, `.X_B`,`.ASM`)
+
+> [!IMPORTANT]
+> The `.zip` for the `.asm` are sometimes called `PAR.zip`.
+
 ## 📋 Requirements
 
 To use the files:
@@ -71,7 +78,7 @@ To use the files:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Himalia/LEGO-Technic-42006-Project.git
+   git clone https://github.com/Himalia/42006-Lego-Model.git
    ```
 
 2. **Solid Edge**:
