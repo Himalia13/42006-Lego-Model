@@ -5,13 +5,14 @@ Welcome to our university project on the LEGO Technic 42006 Excavator, modeled i
 ## 📑 Table of Contents
 1. [Repository Structure](#-repository-structure)
 2. [Project Overview](#-project-overview)
-3. [Requirements](#%EF%B8%8F-requirements)
-4. [Visuals](#-visuals)
-5. [How to Use](#-how-to-use)
-6. [Download as .zip](#-download-as-zip)
-7. [Course Information](#-course-information)
-8. [Contribution](#-contribution)
-9. [License](#-license)
+3. [Extensions](#-extensions)
+4. [Requirements](#%EF%B8%8F-requirements)
+5. [Visuals](#-visuals)
+6. [How to Use](#-how-to-use)
+7. [Download as .zip](#-download-as-zip)
+8. [Course Information](#-course-information)
+9. [Contribution](#-contribution)
+10. [License](#-license)
 
 ---
 
