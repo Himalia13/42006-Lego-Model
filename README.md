@@ -19,11 +19,12 @@ Welcome to our university project on the LEGO Technic 42006 Excavator, modeled i
 
 ```
 .
-├── Parts/                 # Solid Edge part files (.par) for individual components
-├── Assemblies/            # Solid Edge assembly files (.asm) for the full excavator
-├── Drawings/              # Technical drawings exported as PDFs
+├── Parts/                 # All the individual pieces
+├── Assembly/            # All the assemblies and subassemblies
+├── Drafts/              # Technical drawings exported as PDFs
 ├── Renders/               # PNG/JPG images and MP4/GIF animations of the model
-├── Documentation/         # Project report and notes (PDF)
+├── Composite_Parts/         # Pieces that contain multiple parts
+├── Resources/
 .
 ```
 *Note*: Large files (`.par`, `.asm`, `.stl`, `.obj`, `.fbx`) are compressed in `PAR.zip`, `ASM.zip`, `STL.zip`, `OBJ.zip`, and `FBX.zip` due to GitHub’s file size limits. Download and unzip to use. Alternatively, access uncompressed files here.
