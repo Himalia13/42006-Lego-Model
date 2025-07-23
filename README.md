@@ -57,7 +57,7 @@ To use the files:
 ### Render of the LEGO Technic 42006 Excavator
 
 <p align="center">
-  <img src="Renders/Total.png" alt="Excavator Render" style="margin-top: 16px; margin-bottom: 16px;" />
+  <img src="Renders/Total.jpg" alt="Excavator Render" style="margin-top: 16px; margin-bottom: 16px;" />
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ To use the files:
 </p>
 
 <p align="center">
-  <img src="Resources/pices.png" alt="Pieces" style="margin-top: 16px; margin-bottom: 16px;" />
+  <img src="Resources/Pieces.png" alt="Pieces" style="margin-top: 16px; margin-bottom: 16px;" />
 </p>
 
 1. **Clone the Repository**:
