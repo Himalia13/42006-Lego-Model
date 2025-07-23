@@ -61,7 +61,7 @@ To use the files:
 </p>
 
 <p align="center">
-  <img src="Drafts/Parts/Gray_4566742_AVV-1.png" alt="Technical Drawing" style="margin-top: 16px; margin-bottom: 16px;" />
+  <img src="Resources/Gray_4566742_AVV-1.png" alt="Technical Drawing" style="margin-top: 16px; margin-bottom: 16px;" />
 </p>
 
 <p align="center">
