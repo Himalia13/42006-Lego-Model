@@ -1,8 +1,8 @@
-# 🌌 LEGO Technic 42006 Excavator Project
+#  LEGO Technic 42006 Excavator Project
 
 Welcome to our university project on the LEGO Technic 42006 Excavator, modeled in Solid Edge and converted to general-purpose formats for 3D printing and Blender. This repository contains all parts, assemblies, technical drawings, renders, and more, showcasing the skills in CAD modeling, 3D printing preparation, and visualization.
 
-## 📑 Table of Contents
+##  Table of Contents
 1. [Repository Structure](#-repository-structure)
 2. [Project Overview](#-project-overview)
 3. [Extensions](#-extensions)
@@ -16,7 +16,7 @@ Welcome to our university project on the LEGO Technic 42006 Excavator, modeled i
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -30,7 +30,7 @@ Welcome to our university project on the LEGO Technic 42006 Excavator, modeled i
 ```
 *Note*: Large files (`.par`, `.asm`, `.stl`, `.obj`, `.fbx`) are compressed in `PAR.zip`, `ASM.zip`, `STL.zip`, `OBJ.zip`, and `FBX.zip` due to GitHub’s file size limits. Download and unzip to use. Alternatively, access uncompressed files here.
 
-## 🚀 Project Overview
+##  Project Overview
 
 The LEGO Technic 42006 Excavator is a complex mechanical model with a rotating cab, articulated arm, and functional bucket. This project focuses on:
 
@@ -48,7 +48,7 @@ Completed for Graphic Desing in Aerospace Engineering at University Carlos III o
 > [!IMPORTANT]
 > The `.zip` for the `.asm` are sometimes called `PAR.zip`.
 
-## 📋 Requirements
+##  Requirements
 
 To use the files:
 
@@ -60,7 +60,7 @@ To use the files:
 - **PDF Viewer**: For technical drawings (e.g., Adobe Acrobat).
 - **Image/Video Viewer**: For renders (PNG/JPG) and animations (MP4/GIF).
 
-## 🖼️ Visuals
+##  Visuals
 
 ### Render of the LEGO Technic 42006 Excavator
 
@@ -105,7 +105,7 @@ To use the files:
    - View PDFs in `Drafts/` for technical details.
 
 
-## 📦 Download as .zip
+##  Download as .zip
 If you prefer, you can download the entire repository as a .zip file:
 
 1. Visit the repository page in GitHub.
