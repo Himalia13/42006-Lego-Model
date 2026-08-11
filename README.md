@@ -74,11 +74,11 @@ To use the files:
   <img src="Resources/Gray_4566742_AVV-1.png" alt="Technical Drawing" style="margin-top: 16px; margin-bottom: 16px;" />
 </p>
 
-### List of Pieces
+<!-- ### List of Pieces
 
 <p align="center">
   <img src="Resources/Pieces.png" alt="Pieces" style="margin-top: 16px; margin-bottom: 16px;" />
-</p>
+</p> -->
 
 1. **Clone the Repository**:
 
