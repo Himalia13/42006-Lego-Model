@@ -114,15 +114,15 @@ If you prefer, you can download the entire repository as a .zip file:
 
 
 
-## 📘 Course Information
+## Course Information
 
 - **Institution**: Universidad Carlos III de Madrid (UC3M)
 - **Program**: Aerospace Engineering
 - **Course**: Graphic Desing
 - **Academic Year**: 2023-2024
 
-## 🤝 Contribution
+## Contribution
 Contributions are welcome. If you want to add or improve a simulation, create a pull request or open an issue to discuss it.
 
-## 📄 License
+## License
 This project is free to use, modify, and distribute without restrictions
