@@ -1,128 +1,50 @@
-#  LEGO Technic 42006 Excavator Project
+<!--
+Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+LEGO® is a registered trademark of the LEGO Group, which does not sponsor, authorize, or endorse this project.
+-->
 
-Welcome to our university project on the LEGO Technic 42006 Excavator, modeled in Solid Edge and converted to general-purpose formats for 3D printing and Blender. This repository contains all parts, assemblies, technical drawings, renders, and more, showcasing the skills in CAD modeling, 3D printing preparation, and visualization.
+# LEGO Technic 42006 Excavator CAD Model
 
-##  Table of Contents
-1. [Repository Structure](#-repository-structure)
-2. [Project Overview](#-project-overview)
-3. [Extensions](#-extensions)
-4. [Requirements](#%EF%B8%8F-requirements)
-5. [Visuals](#-visuals)
-6. [How to Use](#-how-to-use)
-7. [Download as .zip](#-download-as-zip)
-8. [Course Information](#-course-information)
-9. [Contribution](#-contribution)
-10. [License](#-license)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Institution](https://img.shields.io/badge/Institution-UC3M-blue.svg)](https://www.uc3m.es/)
+[![Degree](https://img.shields.io/badge/Degree-Aerospace%20Engineering-orange.svg)](https://www.uc3m.es/bachelor-degree/aerospace-engineering)
+[![Software](https://img.shields.io/badge/CAD-Solid%20Edge-red.svg)](https://solidedge.siemens.com/)
+[![Render](https://img.shields.io/badge/3D-Blender-yellow.svg)](https://www.blender.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/Himalia13/42006-Lego-Model?style=social)](https://github.com/Himalia13/42006-Lego-Model/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/Himalia13/42006-Lego-Model)](https://github.com/Himalia13/42006-Lego-Model/commits/main)
+
+<p align="center">
+  <img width="800" src="Renders/Total.jpg" alt="LEGO Technic 42006 Excavator Render" />
+</p>
+
+A complete, high-precision 3D CAD modeling project of the official **LEGO Technic 42006 Excavator** set. Developed as part of the *Graphic Design in Aerospace Engineering* curriculum at **Universidad Carlos III de Madrid (UC3M)**.
+
+All individual components, subassemblies, composite parts, technical drawings, and converted formats (`.STL`, `.OBJ`, `.FBX`, `.STEP`, etc.) are organized natively in dedicated folders for seamless exploration, 3D printing, and Blender visualization.
 
 ---
 
-##  Repository Structure
+### Quick Navigation
 
-```
-.
-├── Parts/                 # All the individual pieces
-├── Assembly/            # All the assemblies and subassemblies
-├── Drafts/              # Technical drawings exported as PDFs
-├── Renders/               # PNG/JPG images and MP4/GIF animations of the model
-├── Composite_Parts/         # Pieces that contain multiple parts
-├── Resources/
-.
-```
-*Note*: Large files (`.par`, `.asm`, `.stl`, `.obj`, `.fbx`) are compressed in `PAR.zip`, `ASM.zip`, `STL.zip`, `OBJ.zip`, and `FBX.zip` due to GitHub’s file size limits. Download and unzip to use. Alternatively, access uncompressed files here.
+[**Project Overview**](#project-overview) |
+[**Repository Structure**](#repository-structure) |
+[**Supported Formats**](#supported-formats) |
+[**Visual Showcase**](#visual-showcase) |
+[**How to Use**](#how-to-use) |
+[**Course Details**](#course-information) |
+[**License & Disclaimer**](#license--disclaimer)
 
-##  Project Overview
+---
 
-The LEGO Technic 42006 Excavator is a complex mechanical model with a rotating cab, articulated arm, and functional bucket. This project focuses on:
+## Project Overview
 
-- Design precise 3D models using Solid Edge.
-- Generate technical drawings for engineering documentation.
-- Export models to STL for 3D printing and OBJ/FBX for Blender.
-- Create high-quality renders and animations.
+The **LEGO Technic 42006 Excavator** features complex mechanical movements including a 360° rotating superstructure, an articulated boom/arm, and a functional four-prong grabber. 
 
-Completed for Graphic Desing in Aerospace Engineering at University Carlos III of Madrid.
+Key engineering objectives of this repository:
+- **Precision Modeling:** Recreate every individual piece and mechanical linkage in **Solid Edge**.
+- **Engineering Documentation:** Draft standardized technical drawings and dimensioned sheets (`Drafts/`).
+- **3D Printing Readiness:** Export optimized mesh geometry for additive manufacturing slicers (`STL/`, `3MF/`).
+- **Visualization & Animation:** Export clean models (`OBJ/`, `FBX/`) for lighting, texturing, and dynamic physics in **Blender**.
 
-## Extensions
+---
 
-(`.3D`, `.3MF`, `.FBX`, `.IFC`, `.IGES`,`.JT`, `.OBJ`, `.PAR`, `.PDF`, `.SAT`, `.SEV`, `.STEP`, `.STL`, `.U3D`, `.X_B`,`.ASM`)
-
-> [!IMPORTANT]
-> The `.zip` for the `.asm` are sometimes called `PAR.zip`.
-
-##  Requirements
-
-To use the files:
-
-- **Solid Edge**: For `.par` and `.asm` files (version \[specify, e.g., ST10 or newer\]).
-- **3D Printing**:
-  - Use STL files with slicers like Cura or PrusaSlicer.
-  - Recommended settings: 0.2mm layer height, PLA material.
-- **Blender**: For OBJ/FBX files (Blender 3.0 or newer recommended).
-- **PDF Viewer**: For technical drawings (e.g., Adobe Acrobat).
-- **Image/Video Viewer**: For renders (PNG/JPG) and animations (MP4/GIF).
-
-##  Visuals
-
-### Render of the LEGO Technic 42006 Excavator
-
-<p align="center">
-  <img src="Renders/Total.jpg" alt="Excavator Render" style="margin-top: 16px; margin-bottom: 16px;" />
-</p>
-
-### Example of Draft
-
-<p align="center">
-  <img src="Resources/Gray_4566742_AVV-1.png" alt="Technical Drawing" style="margin-top: 16px; margin-bottom: 16px;" />
-</p>
-
-<!-- ### List of Pieces
-
-<p align="center">
-  <img src="Resources/Pieces.png" alt="Pieces" style="margin-top: 16px; margin-bottom: 16px;" />
-</p> -->
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/Himalia/42006-Lego-Model.git
-   ```
-
-2. **Solid Edge**:
-
-   - Open `.par` and `.asm` files in Solid Edge to explore/edit the models.
-
-3. **3D Printing**:
-
-   - Unzip `STL.zip` and import STL files into a slicer (e.g., Cura).
-   - Adjust print settings based on your printer (e.g., infill, supports).
-
-4. **Blender**:
-
-   - Import OBJ/FBX files into Blender for visualization or animation.
-   - Apply materials or animate assemblies as needed.
-
-5. **Drawings and Documentation**:
-
-   - View PDFs in `Drafts/` for technical details.
-
-
-##  Download as .zip
-If you prefer, you can download the entire repository as a .zip file:
-
-1. Visit the repository page in GitHub.
-2. Click the green **Code** button.
-3. Select **Download ZIP** and extract the contents to your local directory.
-
-
-
-## Course Information
-
-- **Institution**: Universidad Carlos III de Madrid (UC3M)
-- **Program**: Aerospace Engineering
-- **Course**: Graphic Desing
-- **Academic Year**: 2023-2024
-
-## Contribution
-Contributions are welcome. If you want to add or improve a simulation, create a pull request or open an issue to discuss it.
-
-## License
-This project is free to use, modify, and distribute without restrictions
+## Repository Structure
