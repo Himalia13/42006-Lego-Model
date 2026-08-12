@@ -203,8 +203,13 @@ Subject: Graphic Design
 
 Academic Year: 2023–2024
 
+## Contributing
+
+This started as a solo academic project, but corrections, new export formats, and improved renders are welcome. If you spot a modeling error, a broken link, or want to add a format not yet covered, see [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues or submit changes.
+
 ## License & Disclaimer
 This repository and its assets are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. See the full terms in the LICENSE.md file.
 
 ## Disclaimer
 LEGO® is a registered trademark of the LEGO Group of companies, which does not sponsor, authorize, or endorse this repository. This project is an independent educational fan creation.
+
