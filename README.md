@@ -27,6 +27,7 @@ All individual components, subassemblies, composite parts, technical drawings, a
 
 [**Project Overview**](#project-overview) |
 [**Repository Structure**](#repository-structure) |
+[**Downloads / Packages**](#downloads--packages) |
 [**Supported Formats**](#supported-formats) |
 [**Requirements & Software**](#requirements) |
 [**Visual Showcase**](#visual-showcase) |
@@ -38,7 +39,7 @@ All individual components, subassemblies, composite parts, technical drawings, a
 
 ## Project Overview
 
-The **LEGO Technic 42006 Excavator** features complex mechanical movements including a 360° rotating superstructure, an articulated boom/arm, and a functional four-prong grabber. 
+The **LEGO Technic 42006 Excavator** features complex mechanical movements including a 360° rotating superstructure, an articulated boom/arm, and a functional four-prong grabber.
 
 Key engineering objectives of this repository:
 - **Precision Modeling:** Recreate every individual piece and mechanical linkage in **Solid Edge**.
@@ -50,18 +51,73 @@ Key engineering objectives of this repository:
 
 ## Repository Structure
 
-.
-├── Assembly/          # Main mechanical assembly and subassemblies (.asm)
-├── Parts/             # Individual component models (.par)
-├── Composite_Parts/   # Complex multi-part sub-assemblies
-├── Drafts/            # Dimensioned technical engineering drawings (.pdf)
-├── Renders/           # High-resolution image renders (.png, .jpg) & animations (.mp4, .gif)
-├── STL/               # Standard Triangle Language files for 3D printing
-├── OBJ/               # Wavefront 3D mesh files
-├── FBX/               # Filmbox 3D exchange files
-├── STEP/              # ISO 10303 universal CAD exchange files
-└── Resources/         # Reference materials, textures, and asset files
+```
+42006-Lego-Model/
+├── Assembly/               # Subassemblies, each exported to every supported format
+│   ├── ARM/                # 3D · 3MF · FBX · IFC · IGES · JT · OBJ · PAR · PDF · SAT · SEV · STEP · STL · U3D · X_B
+│   ├── BODY/
+│   ├── CABIN/
+│   ├── CHAIN/
+│   ├── HOOK/
+│   └── TOTAL/              # Full excavator assembly
+├── Composite_Parts/        # Multi-piece sub-assemblies (native Solid Edge .asm/.par)
+│   ├── ClGray_4525904_AVV/
+│   ├── Mtp_4612100_AVV/
+│   ├── Mtp_4624645_JCA/
+│   └── Mtp_4638507_AVV_andMore/
+├── Parts/                  # Every individual LEGO piece, exported to every supported format
+│   ├── 3D · 3MF · FBX · IFC · IGES · JT · OBJ · PAR · PDF · SAT · SEV · STEP · STL · U3D · X_B
+├── Drafts/                 # Dimensioned technical engineering drawings (.pdf)
+│   ├── ASSEMBY/             # Per-subassembly drawing sheets
+│   ├── Composed_Parts/      # Drawings for composite parts
+│   └── Parts/                # Drawings for individual parts
+├── Renders/                 # Image renders and mounting animations
+│   ├── Mountings/            # Assembly step animations (.mp4 / .wmv)
+│   ├── Parts_Images/         # Individual part renders (.jpg)
+│   └── Total.jpg             # Full-model hero render
+├── Resources/                # Reference images and supporting assets
+├── LICENSE.md
+├── README.md
+├── .gitattributes
+└── .gitignore
+```
 
+---
+
+## Downloads / Packages
+
+For anyone who doesn't need the full repository, pre-zipped packages are available so you can grab just the pieces or assemblies in the format you need.
+
+> 📦 Packages are published as [**GitHub Releases**](https://github.com/Himalia13/42006-Lego-Model/releases) rather than committed to the repo, to keep clone size small. Replace the placeholder links below once you've uploaded the corresponding `.zip` assets to a release.
+
+### By Assembly
+
+| Assembly | STL | OBJ | STEP | FBX |
+|---|---|---|---|---|
+| ARM | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_FBX.zip) |
+| BODY | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_FBX.zip) |
+| CABIN | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_FBX.zip) |
+| CHAIN | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_FBX.zip) |
+| HOOK | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_FBX.zip) |
+| **TOTAL** (full model) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_FBX.zip) |
+
+### All Individual Parts (one archive per format)
+
+| Format | Download |
+|---|---|
+| STL (3D printing) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_STL.zip) |
+| OBJ (rendering) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_OBJ.zip) |
+| FBX (animation) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_FBX.zip) |
+| STEP (universal CAD) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_STEP.zip) |
+| PAR (native Solid Edge) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_PAR.zip) |
+
+### How to publish these packages
+
+If you haven't set these up yet:
+1. Zip the desired folder (e.g. `Assembly/ARM/STL/`) locally.
+2. Go to the repo's **Releases** page → **Draft a new release**.
+3. Attach the `.zip` files as release assets, using the exact filenames referenced above (e.g. `ARM_STL.zip`).
+4. Publish the release — the `latest/download/<filename>.zip` links in the tables above will then resolve automatically.
 
 ---
 
@@ -69,7 +125,7 @@ Key engineering objectives of this repository:
 
 The repository includes native CAD files along with universal exchange formats:
 
-`.PAR` • `.ASM` • `.STEP` • `.IGES` • `.STL` • `.3MF` • `.OBJ` • `.FBX` • `.PDF` • `.JT` • `.SAT` • `.U3D` • `.X_B`
+`.PAR` • `.ASM` • `.STEP` • `.IGES` • `.STL` • `.3MF` • `.OBJ` • `.FBX` • `.PDF` • `.JT` • `.SAT` • `.U3D` • `.X_B` • `.IFC` • `.SEV`
 
 ---
 
@@ -77,8 +133,8 @@ The repository includes native CAD files along with universal exchange formats:
 
 To view, edit, or utilize the assets in this repository:
 
-* **CAD Modeling & Editing:** 
-  * **Any CAD Software** (Fusion 360, SolidWorks, Inventor, FreeCAD, CATIA, etc.): You can open, edit, and inspect the model geometry using the universal `.STEP` and `.IGES` files located in the `STEP/` folder.
+* **CAD Modeling & Editing:**
+  * **Any CAD Software** (Fusion 360, SolidWorks, Inventor, FreeCAD, CATIA, etc.): You can open, edit, and inspect the model geometry using the universal `.STEP` and `.IGES` files.
   * **Siemens Solid Edge:** Required **only** if you wish to inspect or modify the original parametric feature tree, native constraints, or `.par` / `.asm` file structures.
 * **3D Printing:** Any modern slicer (Bambu Studio, PrusaSlicer, Cura) accepting `.stl` or `.3mf` files.
 * **Rendering & Animation:** Blender 3.0+ or any 3D software capable of importing `.obj` or `.fbx` formats.
@@ -104,21 +160,23 @@ To view, edit, or utilize the assets in this repository:
 
 ### 1. Clone the Repository
 
-git clone [https://github.com/Himalia13/42006-Lego-Model.git](https://github.com/Himalia13/42006-Lego-Model.git)
-### 2. CAD Workflows
-Universal CAD: Import .step files from STEP/ into any CAD suite to edit geometry or create custom assemblies.
+```
+git clone https://github.com/Himalia13/42006-Lego-Model.git
+```
 
-Solid Edge: Open native .asm files located in Assembly/ to edit parametric features and native assembly relationships directly via Parts/.
+Or, if you just need a subset of files, grab a package from [**Downloads / Packages**](#downloads--packages) instead of cloning the whole repo.
+
+### 2. CAD Workflows
+- **Universal CAD:** Import `.step` files from `Assembly/<PART>/STEP/` or `Parts/STEP/` into any CAD suite to edit geometry or create custom assemblies.
+- **Solid Edge:** Open native `.asm` files located in `Assembly/` to edit parametric features and native assembly relationships directly via `Parts/` and `Composite_Parts/`.
 
 ### 3. Additive Manufacturing (3D Printing)
-Import .stl or .3mf files into your preferred slicer.
-
-Recommended settings: 0.2mm layer height, 15-20% infill, PLA/PETG material.
+- Import `.stl` or `.3mf` files into your preferred slicer.
+- Recommended settings: 0.2mm layer height, 15-20% infill, PLA/PETG material.
 
 ### 4. Rendering & Animation (Blender)
-Import .obj or .fbx files into Blender.
-
-Materials and mechanical pivots are set up for visualization and animation.
+- Import `.obj` or `.fbx` files into Blender.
+- Materials and mechanical pivots are set up for visualization and animation.
 
 ## Course Information
 Institution: Universidad Carlos III de Madrid (UC3M)
