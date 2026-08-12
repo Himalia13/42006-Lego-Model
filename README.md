@@ -7,7 +7,6 @@ LEGO® is a registered trademark of the LEGO Group, which does not sponsor, auth
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE.md)
 [![Institution](https://img.shields.io/badge/Institution-UC3M-blue.svg)](https://www.uc3m.es/)
-[![Degree](https://img.shields.io/badge/Degree-Aerospace%20Engineering-orange.svg)](#course-information)
 [![Software](https://img.shields.io/badge/CAD-Universal%20%2F%20Solid%20Edge-red.svg)](#requirements)
 [![Render](https://img.shields.io/badge/3D-Blender-yellow.svg)](https://www.blender.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/Himalia13/42006-Lego-Model?style=social)](https://github.com/Himalia13/42006-Lego-Model/stargazers)
@@ -88,7 +87,6 @@ Key engineering objectives of this repository:
 
 For anyone who doesn't need the full repository, pre-zipped **STEP** packages are available so you can grab just the pieces or assemblies you need without pulling every export format.
 
-> 📦 Packages are published as [**GitHub Releases**](https://github.com/Himalia13/42006-Lego-Model/releases) rather than committed to the repo, to keep clone size small. Replace the placeholder links below once you've uploaded the corresponding `.zip` assets to a release. Only `.STEP` is offered as a package since it's the universal format readable by any CAD software — for other formats (STL, OBJ, FBX, etc.), clone the repo or use the [sparse clone instructions](#cloning-only-the-folders-you-need) below.
 
 ### By Assembly (STEP)
 
@@ -107,13 +105,6 @@ For anyone who doesn't need the full repository, pre-zipped **STEP** packages ar
 |---|---|
 | All parts, STEP format | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_STEP.zip) |
 
-### How to publish these packages
-
-If you haven't set these up yet:
-1. Zip the desired folder (e.g. `Assembly/ARM/STL/`) locally.
-2. Go to the repo's **Releases** page → **Draft a new release**.
-3. Attach the `.zip` files as release assets, using the exact filenames referenced above (e.g. `ARM_STL.zip`).
-4. Publish the release — the `latest/download/<filename>.zip` links in the tables above will then resolve automatically.
 
 ---
 
@@ -175,7 +166,7 @@ cd 42006-Lego-Model
 git sparse-checkout init --cone
 
 # 3. Pick the folder(s) you want (space-separated, add as many as you like)
-git sparse-checkout set Assembly/ARM Parts/STEP
+git sparse-checkout set Assembly/ARM/STEP
 
 # 4. Check out the files
 git checkout main
@@ -198,11 +189,10 @@ You can change your mind later without re-cloning — just run `git sparse-check
 
 ### 4. Additive Manufacturing (3D Printing)
 - Import `.stl` or `.3mf` files into your preferred slicer.
-- Recommended settings: 0.2mm layer height, 15-20% infill, PLA/PETG material.
+
 
 ### 5. Rendering & Animation (Blender)
 - Import `.obj` or `.fbx` files into Blender.
-- Materials and mechanical pivots are set up for visualization and animation.
 
 ## Course Information
 Institution: Universidad Carlos III de Madrid (UC3M)
