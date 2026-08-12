@@ -16,7 +16,7 @@ LEGO® is a registered trademark of the LEGO Group, which does not sponsor, auth
   <img width="800" src="Renders/Total.jpg" alt="LEGO Technic 42006 Excavator Render" />
 </p>
 
-A complete, high-precision 3D CAD modeling project of the official **LEGO Technic 42006 Excavator** set. Developed as part of the *Graphic Design in Aerospace Engineering* curriculum at **Universidad Carlos III de Madrid (UC3M)**.
+A complete, high-precision 3D CAD modeling project of the official **Technic Excavator** set. Developed as part of the *Graphic Design in Aerospace Engineering* curriculum at **Universidad Carlos III de Madrid (UC3M)**.
 
 All individual components, subassemblies, composite parts, technical drawings, and converted formats (`.STL`, `.OBJ`, `.FBX`, `.STEP`, etc.) are organized natively in dedicated folders for seamless exploration, 3D printing, and Blender visualization.
 
@@ -38,7 +38,7 @@ All individual components, subassemblies, composite parts, technical drawings, a
 
 ## Project Overview
 
-The **LEGO Technic 42006 Excavator** features complex mechanical movements including a 360° rotating superstructure, an articulated boom/arm, and a functional four-prong grabber.
+The **Technic Excavator** features complex mechanical movements including a 360° rotating superstructure, an articulated boom/arm, and a functional four-prong grabber.
 
 Key engineering objectives of this repository:
 - **Precision Modeling:** Recreate every individual piece and mechanical linkage in **Solid Edge**.
