@@ -103,7 +103,7 @@ To view, edit, or utilize the assets in this repository:
 ## How to Use
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/Himalia13/42006-Lego-Model.git](https://github.com/Himalia13/42006-Lego-Model.git)
 2. CAD Workflows
 Universal CAD: Import .step files from STEP/ into any CAD suite to edit geometry or create custom assemblies.
