@@ -3,7 +3,7 @@ Licensed under the Creative Commons Attribution-NonCommercial 4.0 International 
 LEGO® is a registered trademark of the LEGO Group, which does not sponsor, authorize, or endorse this project.
 -->
 
-# LEGO Technic 42006 Excavator CAD Model
+# Technic Excavator CAD Model
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE.md)
 [![Institution](https://img.shields.io/badge/Institution-UC3M-blue.svg)](https://www.uc3m.es/)

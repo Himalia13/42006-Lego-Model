@@ -6,3 +6,7 @@ Conversion.py
 2zip.py
 logRemove.py
 /Resources/Pieces.png
+Tree.py
+/release_packages
+prepare_release_zips.py
+LICENSE.pdf
