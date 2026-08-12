@@ -105,22 +105,22 @@ To view, edit, or utilize the assets in this repository:
 ### 1. Clone the Repository
 
 git clone [https://github.com/Himalia13/42006-Lego-Model.git](https://github.com/Himalia13/42006-Lego-Model.git)
-2. CAD Workflows
+### 2. CAD Workflows
 Universal CAD: Import .step files from STEP/ into any CAD suite to edit geometry or create custom assemblies.
 
 Solid Edge: Open native .asm files located in Assembly/ to edit parametric features and native assembly relationships directly via Parts/.
 
-3. Additive Manufacturing (3D Printing)
+### 3. Additive Manufacturing (3D Printing)
 Import .stl or .3mf files into your preferred slicer.
 
 Recommended settings: 0.2mm layer height, 15-20% infill, PLA/PETG material.
 
-4. Rendering & Animation (Blender)
+### 4. Rendering & Animation (Blender)
 Import .obj or .fbx files into Blender.
 
 Materials and mechanical pivots are set up for visualization and animation.
 
-Course Information
+## Course Information
 Institution: Universidad Carlos III de Madrid (UC3M)
 
 Degree: Bachelor's Degree in Aerospace Engineering
@@ -129,8 +129,8 @@ Subject: Graphic Design
 
 Academic Year: 2023–2024
 
-License & Disclaimer
+## License & Disclaimer
 This repository and its assets are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. See the full terms in the LICENSE.md file.
 
-Disclaimer
+## Disclaimer
 LEGO® is a registered trademark of the LEGO Group of companies, which does not sponsor, authorize, or endorse this repository. This project is an independent educational fan creation.
