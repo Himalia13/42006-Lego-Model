@@ -1,0 +1,30 @@
+//---luxion:dal:7---
+//---import:dal:1---
+//---id:1063259212---
+// This is a KeyShot scene file
+
+#print "KeyShot SceneApi oo 12.2.2.4  (built Tue Mar 28 11:21:04 2023)"
+version 9
+
+load "luxrtopt.so" {
+"import_mode" on,
+"import_merge_groups" off,
+"import_merge_objects" off,
+"import_up_vector" 2,
+"meter_scale" 1,
+"import_keep_original" on,
+"import_center_geometry" on,
+"import_snap_to_ground" on,
+"import_adjust_camera" on,
+"import_adjust_environment" on,
+"import_use_camera" "ActiveCamera",
+"ext" off,
+}
+#define shader 1 lux_diffuse {
+"diffuse" 0 0.0508761 0.522522,
+}
+
+#define material "mat_1" {
+surface 1
+flags 4096
+}
