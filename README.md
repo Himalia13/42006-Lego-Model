@@ -86,30 +86,26 @@ Key engineering objectives of this repository:
 
 ## Downloads / Packages
 
-For anyone who doesn't need the full repository, pre-zipped packages are available so you can grab just the pieces or assemblies in the format you need.
+For anyone who doesn't need the full repository, pre-zipped **STEP** packages are available so you can grab just the pieces or assemblies you need without pulling every export format.
 
-> 📦 Packages are published as [**GitHub Releases**](https://github.com/Himalia13/42006-Lego-Model/releases) rather than committed to the repo, to keep clone size small. Replace the placeholder links below once you've uploaded the corresponding `.zip` assets to a release.
+> 📦 Packages are published as [**GitHub Releases**](https://github.com/Himalia13/42006-Lego-Model/releases) rather than committed to the repo, to keep clone size small. Replace the placeholder links below once you've uploaded the corresponding `.zip` assets to a release. Only `.STEP` is offered as a package since it's the universal format readable by any CAD software — for other formats (STL, OBJ, FBX, etc.), clone the repo or use the [sparse clone instructions](#cloning-only-the-folders-you-need) below.
 
-### By Assembly
+### By Assembly (STEP)
 
-| Assembly | STL | OBJ | STEP | FBX |
-|---|---|---|---|---|
-| ARM | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_FBX.zip) |
-| BODY | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_FBX.zip) |
-| CABIN | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_FBX.zip) |
-| CHAIN | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_FBX.zip) |
-| HOOK | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_FBX.zip) |
-| **TOTAL** (full model) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_STL.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_OBJ.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_STEP.zip) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_FBX.zip) |
-
-### All Individual Parts (one archive per format)
-
-| Format | Download |
+| Assembly | Download |
 |---|---|
-| STL (3D printing) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_STL.zip) |
-| OBJ (rendering) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_OBJ.zip) |
-| FBX (animation) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_FBX.zip) |
-| STEP (universal CAD) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_STEP.zip) |
-| PAR (native Solid Edge) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_PAR.zip) |
+| ARM | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/ARM_STEP.zip) |
+| BODY | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/BODY_STEP.zip) |
+| CABIN | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CABIN_STEP.zip) |
+| CHAIN | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/CHAIN_STEP.zip) |
+| HOOK | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/HOOK_STEP.zip) |
+| **TOTAL** (full model) | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/TOTAL_STEP.zip) |
+
+### All Individual Parts (STEP)
+
+| Package | Download |
+|---|---|
+| All parts, STEP format | [ZIP](https://github.com/Himalia13/42006-Lego-Model/releases/latest/download/Parts_STEP.zip) |
 
 ### How to publish these packages
 
@@ -166,15 +162,45 @@ git clone https://github.com/Himalia13/42006-Lego-Model.git
 
 Or, if you just need a subset of files, grab a package from [**Downloads / Packages**](#downloads--packages) instead of cloning the whole repo.
 
-### 2. CAD Workflows
+### 2. Cloning Only the Folders You Need
+
+If you don't want the whole repository (renders, drafts, and every export format add up fast), use Git's **sparse-checkout** to clone only the folders you're interested in:
+
+```bash
+# 1. Clone without checking out any files yet
+git clone --no-checkout --filter=blob:none https://github.com/Himalia13/42006-Lego-Model.git
+cd 42006-Lego-Model
+
+# 2. Enable sparse-checkout in "cone" mode
+git sparse-checkout init --cone
+
+# 3. Pick the folder(s) you want (space-separated, add as many as you like)
+git sparse-checkout set Assembly/ARM Parts/STEP
+
+# 4. Check out the files
+git checkout main
+```
+
+Some useful examples:
+
+| I want... | Command |
+|---|---|
+| Just the ARM assembly | `git sparse-checkout set Assembly/ARM` |
+| Only STEP files for every part | `git sparse-checkout set Parts/STEP` |
+| The final drafts/drawings | `git sparse-checkout set Drafts` |
+| Renders only | `git sparse-checkout set Renders` |
+
+You can change your mind later without re-cloning — just run `git sparse-checkout set <new-folders>` again, or `git sparse-checkout disable` to go back to a full checkout.
+
+### 3. CAD Workflows
 - **Universal CAD:** Import `.step` files from `Assembly/<PART>/STEP/` or `Parts/STEP/` into any CAD suite to edit geometry or create custom assemblies.
 - **Solid Edge:** Open native `.asm` files located in `Assembly/` to edit parametric features and native assembly relationships directly via `Parts/` and `Composite_Parts/`.
 
-### 3. Additive Manufacturing (3D Printing)
+### 4. Additive Manufacturing (3D Printing)
 - Import `.stl` or `.3mf` files into your preferred slicer.
 - Recommended settings: 0.2mm layer height, 15-20% infill, PLA/PETG material.
 
-### 4. Rendering & Animation (Blender)
+### 5. Rendering & Animation (Blender)
 - Import `.obj` or `.fbx` files into Blender.
 - Materials and mechanical pivots are set up for visualization and animation.
 
